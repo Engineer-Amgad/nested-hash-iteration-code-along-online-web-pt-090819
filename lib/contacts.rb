@@ -15,9 +15,9 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  #binding.pry
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
   binding.pry
+  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
+  #binding.pry
   
 end
 remove_strawberry
